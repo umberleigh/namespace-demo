@@ -1,0 +1,17 @@
+{
+    "name": "umberleigh/namespace-demo",
+    "description": "A simple starting project demonstrating PHP namespaces and autoloading",
+    "authors": [
+        {
+            "name": "umberleigh"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "umberleigh\\MyApp\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.1"
+    }
+}
